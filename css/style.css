@@ -1,4 +1,92 @@
-font-family: 'Lato',
-sans-serif;
-font-family: 'Roboto',
-sans-serif;
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*Menu nawigacyjne / Start*/
+
+#main-nav {
+	position: fixed;
+	text-align: right;
+	width: 100%;
+	background-color: white;
+	z-index: 30;
+	margin: 0;
+}
+
+li {
+	font-family: Lato;
+	padding: 0px 30px 0px 30px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0;
+}
+
+li a {
+	text-decoration: none;
+	color: #1ac056;
+}
+
+
+/*Menu nawigacyjne / Koniec*/
+
+#main-header {
+	background-image: url(/img/header-background.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 90vh;
+}
+
+#main-header > #header-content {
+	font-family: 'Roboto';
+	position: absolute;
+	top: 40%;
+	right: 0;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	transform: translate(-50%);
+}
+
+#main-header > #header-content > h1 {
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 5em;
+	color: white;
+	font-weight: 100;
+}
+
+#main-header > #header-content > h2 {
+	font-family: 'Roboto';
+	font-weight: 100;
+	color: white;
+}
+
+#about figure {
+	text-align: center;
+	margin: 0;
+}
+
+#about {
+	width: 100%;
+	text-align: center;
+}
+
+#about img {
+	width: 100%;
+	max-width: 260px;
+	border: 20px solid beige;
+	border-radius: 20px;
+	float: left;
+}
+
+#about div {
+	width: 100%;
+	border: 20px solid beige;
+}
